@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toys and Games Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Toys & Games Store</h1>
+        <nav>
+            <b><a href="#home">Home</a></b>
+            <b><a href="#products">Products</a></b>
+            <b><a href="#cart">Cart</a></b>
+            <b><a href="#contact"></a></b>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-banner">
+            <h2>Explore the World of Fun!</h2>
+            <p>Find the perfect toy or game for every occasion.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <!-- Product 1 -->
+            <div class="product" data-id="1" data-name="Puzzle Set" data-price="10">
+                <img src="puzzle.png" alt="Puzzle Set">
+                <h3>Puzzle Set</h3>
+                <p>Price: $10</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="product" data-id="2" data-name="Action Figure" data-price="15">
+                <img src="action-figure.png" alt="Action Figure">
+                <h3>Action Figure</h3>
+                <p>Price: $15</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product" data-id="3" data-name="Board Game" data-price="20">
+                <img src="board-game.png" alt="Board Game">
+                <h3>Board Game</h3>
+                <p>Price: $20</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">Total: $0</p>
+        <button id="checkout">Checkout</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><a href="mailto:sisqoask@gmail.com" target="_blank">Email</a></p>
+        <p><a href="https://tiktok.com/@sisqoasq" target="_blank">Tiktok</a></p>
+        <p><a href="https://wa.me/+2348128197651" target="_blank">WhatsApp</a></p>
+    </section>
+
+    <footer>
+        <p>&copy;  Sisco Edition: 2024 Toys & Games Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
